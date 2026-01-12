@@ -14,6 +14,7 @@ public:
         vector<bool> inMST(n, false);
         int cost = 0;
 
+        // This is the correct solution because every node can connect to every other node
         for (int i = 0; i < n - 1; i++){
             for (int j = i + 1; j < n; j++){
                 int x1 = points[i][0], y1 = points[i][1];
