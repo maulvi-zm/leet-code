@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/maulvi-zm/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/maulvi-zm/LeetCode/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/maulvi-zm/LeetCode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1706-min-cost-to-connect-all-points](https://github.com/maulvi-zm/leet-code/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/maulvi-zm/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [2521-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/maulvi-zm/LeetCode/tree/master/2521-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/maulvi-zm/LeetCode/tree/master/2526-longest-increasing-subsequence-ii) |
@@ -230,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/maulvi-zm/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/maulvi-zm/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/maulvi-zm/LeetCode/tree/master/0721-accounts-merge) |
+| [1706-min-cost-to-connect-all-points](https://github.com/maulvi-zm/leet-code/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/maulvi-zm/LeetCode/tree/master/1753-path-with-minimum-effort) |
 ## Matrix
 |  |
@@ -270,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/maulvi-zm/LeetCode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/maulvi-zm/LeetCode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/maulvi-zm/LeetCode/tree/master/0744-network-delay-time) |
+| [1706-min-cost-to-connect-all-points](https://github.com/maulvi-zm/leet-code/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
@@ -384,4 +387,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/maulvi-zm/LeetCode/tree/master/0319-bulb-switcher) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/maulvi-zm/leet-code/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
