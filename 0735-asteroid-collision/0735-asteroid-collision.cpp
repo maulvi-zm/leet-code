@@ -1,41 +1,31 @@
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        vector<int> result;
+        vector<int> st; // Using a vector as a stack
 
-        for (auto &asteroid: asteroids){
-            if (result.empty() || asteroid > 0){
-                result.push_back(asteroid);
-                continue;
+        for (int a : asteroids) {
+            // Flag to track if the current asteroid 'a' survives
+            bool destroyed = false;
+
+            // Collision only happens if:
+            // 1. Stack is not empty
+            // 2. Current asteroid is moving left (< 0)
+            // 3. Top of stack is moving right (> 0)
+            while (!st.empty() && a < 0 && st.back() > 0) {
+                if (st.back() < -a) {
+                    st.pop_back();      // Top of stack is smaller, it explodes
+                    continue;           // Current 'a' keeps moving left
+                } else if (st.back() == -a) {
+                    st.pop_back();      // Both are same size, both explode
+                }
+                destroyed = true;       // 'a' is destroyed
+                break;
             }
 
-            if (result.back() < 0 && asteroid < 0){
-                result.push_back(asteroid);
-                continue;
-            }
-
-            if (asteroid < 0 && result.back() > 0){
-                bool isBroken = false;
-                while (!result.empty() && result.back() > 0){
-                    if (result.back() < -asteroid){
-                        result.pop_back();
-                    } else if (result.back() == -asteroid){
-                        isBroken = true;
-                        result.pop_back();
-                        break;
-                    } else {
-                        isBroken = true;
-                        break;
-                    }
-                }
-
-                if ((result.empty() && !isBroken) || !isBroken){
-                    result.push_back(asteroid);
-                    continue;
-                }
+            if (!destroyed) {
+                st.push_back(a);
             }
         }
-
-        return result;
+        return st;
     }
 };
