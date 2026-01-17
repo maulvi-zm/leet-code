@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/maulvi-zm/LeetCode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/maulvi-zm/LeetCode/tree/master/0724-find-pivot-index) |
 | [0729-my-calendar-i](https://github.com/maulvi-zm/LeetCode/tree/master/0729-my-calendar-i) |
+| [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
 | [0746-prefix-and-suffix-search](https://github.com/maulvi-zm/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0816-design-hashset](https://github.com/maulvi-zm/LeetCode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/maulvi-zm/LeetCode/tree/master/0817-design-hashmap) |
@@ -367,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/maulvi-zm/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0225-implement-stack-using-queues](https://github.com/maulvi-zm/leet-code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/maulvi-zm/leet-code/tree/master/0234-palindrome-linked-list) |
+| [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/maulvi-zm/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
@@ -408,4 +410,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/maulvi-zm/leet-code/tree/master/0234-palindrome-linked-list) |
+## Simulation
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
 <!---LeetCode Topics End-->
