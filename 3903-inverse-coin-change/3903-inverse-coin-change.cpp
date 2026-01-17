@@ -14,6 +14,8 @@ public:
                     }
 
                     numWays[j] -= numWays[j-i-1];
+
+                    // If you already reduce j by n, its mean you already visited (j-n) and n
                     visited[j][j-i-1] = true;
                     visited[j][i] = true;
                 }
