@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/maulvi-zm/LeetCode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/maulvi-zm/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/maulvi-zm/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/maulvi-zm/leet-code/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/maulvi-zm/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/maulvi-zm/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/maulvi-zm/leet-code/tree/master/0040-combination-sum-ii) |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/maulvi-zm/leet-code/tree/master/0015-3sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/maulvi-zm/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/maulvi-zm/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0406-queue-reconstruction-by-height](https://github.com/maulvi-zm/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
@@ -326,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/maulvi-zm/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/maulvi-zm/leet-code/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/maulvi-zm/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/maulvi-zm/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/maulvi-zm/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |

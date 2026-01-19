@@ -1,41 +1,38 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-       vector<vector<int>> ans;
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
 
-       sort(nums.begin(), nums.end());
-
-
-       for (int i = 0; i < nums.size(); i++){
+        vector<vector<int>> result;
+        for (int i = 0; i < n; i++){
             if (i > 0 && nums[i] == nums[i-1]) continue;
 
-            int left = i + 1, right = nums.size() - 1, target = -nums[i];
+            int l = i + 1, r = n - 1;
 
-            while (left < right){
-                int sum = nums[left] + nums[right];
+            int target = -nums[i];
+            while (l < r){
+                if (nums[l] + nums[r] == target){
+                    result.push_back({nums[i], nums[l], nums[r]});
 
-                if (sum == target){
-                    vector<int> temp;
+                    // Find different l and r
+                    do {
+                        l++;
+                    } while (l < n && nums[l] == nums[l-1]);
 
-                    temp.push_back(nums[i]);
-                    temp.push_back(nums[left]);
-                    temp.push_back(nums[right]);
+                    do {
+                        r--;
+                    } while (r > 0 && nums[r] == nums[r+1]);
 
-                    ans.push_back(temp);
-
-                    while(left < right && nums[left] == nums[left+1]) left++;
-                    while(left < right && nums[right] == nums[right-1]) right--;
-
-                    left++;
-                    right--;
-                } else if (sum < target){
-                    left++;
-                } else{
-                    right--;
+                } else if (nums[l] + nums[r] < target){
+                    l++;
+                } else {
+                    r--;
                 }
-            }
-       }
 
-       return ans;
+            }
+        }
+
+        return result;
     }
 };
