@@ -16,9 +16,8 @@ public:
 
         vector<int> results;
         for (int i = max_counter; i > 0; --i){
-            while (!buckets[i].empty()){
-                results.push_back(buckets[i].back());
-                buckets[i].pop_back();
+            for (auto &num: buckets[i]){
+                results.push_back(num);
 
                 if (results.size() == k){
                     return results;
