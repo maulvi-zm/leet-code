@@ -1,19 +1,22 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int l = 0, ans = 0;
-        unordered_set<char> unique;
+        bitset<128> bit;
 
-        for (int i = 0; i < s.size(); i++) {
-            while (unique.count(s[i])){
-                unique.erase(s[l]);
+        int l = 0, longest = 0;
+        for (int r = 0; r < s.size(); ++r) {
+            int idx = s[r];
+
+            while (bit.test(idx)) {
+                bit.reset(s[l]);
                 l++;
-            } 
+            }
 
-            unique.insert(s[i]);
-            ans = max((int) unique.size(), ans);
+            longest = max(longest, r - l + 1);
+
+            bit.set(idx); 
         }
 
-        return ans;
+        return longest;
     }
 };
