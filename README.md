@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/maulvi-zm/LeetCode/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/maulvi-zm/leet-code/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/maulvi-zm/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/maulvi-zm/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0225-implement-stack-using-queues](https://github.com/maulvi-zm/leet-code/tree/master/0225-implement-stack-using-queues) |
@@ -407,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/maulvi-zm/leet-code/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/maulvi-zm/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0155-min-stack](https://github.com/maulvi-zm/leet-code/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/maulvi-zm/leet-code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/maulvi-zm/leet-code/tree/master/0234-palindrome-linked-list) |
 | [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
