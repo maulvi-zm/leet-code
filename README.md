@@ -196,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/maulvi-zm/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/maulvi-zm/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/maulvi-zm/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/maulvi-zm/leet-code/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/maulvi-zm/LeetCode/tree/master/0721-accounts-merge) |
 | [0746-prefix-and-suffix-search](https://github.com/maulvi-zm/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0816-design-hashset](https://github.com/maulvi-zm/LeetCode/tree/master/0816-design-hashset) |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/maulvi-zm/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/maulvi-zm/LeetCode/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/maulvi-zm/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/maulvi-zm/leet-code/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/maulvi-zm/leet-code/tree/master/0647-palindromic-substrings) |
 | [0721-accounts-merge](https://github.com/maulvi-zm/LeetCode/tree/master/0721-accounts-merge) |
 | [0746-prefix-and-suffix-search](https://github.com/maulvi-zm/LeetCode/tree/master/0746-prefix-and-suffix-search) |
@@ -360,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/maulvi-zm/leet-code/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/maulvi-zm/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/maulvi-zm/LeetCode/tree/master/0295-find-median-from-data-stream) |
+| [0567-permutation-in-string](https://github.com/maulvi-zm/leet-code/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/maulvi-zm/leet-code/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/maulvi-zm/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/maulvi-zm/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -385,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/maulvi-zm/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/maulvi-zm/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/maulvi-zm/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/maulvi-zm/leet-code/tree/master/0567-permutation-in-string) |
 | [1020-longest-turbulent-subarray](https://github.com/maulvi-zm/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/maulvi-zm/LeetCode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 ## Prefix Sum
