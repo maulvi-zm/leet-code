@@ -1,18 +1,18 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int global = 0, local_min = INT_MAX, local_max = INT_MIN;
+        int max_profit = 0;
 
-        for (auto &price: prices){
-            if (price < local_min){
-                local_min = price;
-                local_max = price;
+        int l = 0;
+        for (int r = 0; r < prices.size(); r++) {
+            int profit = prices[r] - prices[l];
+            max_profit = max(max_profit, profit);
+
+            if (prices[r] < prices[l]) {
+                l = r;
             }
-
-            local_max = max(price, local_max);
-            global = max(local_max - local_min, global);
         }
 
-        return global;
+        return max_profit;
     }
 };
