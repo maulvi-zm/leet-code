@@ -5,31 +5,34 @@ public:
         sort(nums.begin(), nums.end());
 
         vector<vector<int>> result;
-        for (int i = 0; i < n; i++){
-            if (i > 0 && nums[i] == nums[i-1]) continue;
+        for (int i = 0; i < nums.size(); ++i) {
+            if (i != 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
 
-            int l = i + 1, r = n - 1;
-
-            int target = -nums[i];
-            while (l < r){
-                if (nums[l] + nums[r] == target){
-                    result.push_back({nums[i], nums[l], nums[r]});
-
-                    // Find different l and r
-                    do {
-                        l++;
-                    } while (l < n && nums[l] == nums[l-1]);
-
-                    do {
-                        r--;
-                    } while (r > 0 && nums[r] == nums[r+1]);
-
-                } else if (nums[l] + nums[r] < target){
+            int target = -nums[i], l = i + 1, r = n - 1;
+            while (l < r) {
+                if (l != i + 1 && nums[l] == nums[l-1]){
                     l++;
-                } else {
-                    r--;
+                    continue;
                 }
 
+                if (r != n - 1 && nums[r] == nums[r+1]){
+                    r--;
+                    continue;
+                }
+
+                int total = nums[l] + nums[r];
+                if (total < target) {
+                    l++;
+                } else if (total > target) {
+                    r--;
+                } else {
+                    result.push_back({nums[i], nums[l], nums[r]});
+
+                    l++;
+                    r--;
+                }
             }
         }
 
