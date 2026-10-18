@@ -1,32 +1,41 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        int s1_length = s1.size(), s2_length = s2.size();
-
-        if (s1_length > s2_length){
+        if (s1.size() > s2.size()) {
             return false;
         }
 
-        vector<int> correct(26, 0);
-        for (auto &ch: s1){
-            correct[ch - 'a']++;
+        vector<int> s1_counter(26, 0);
+        for (auto& ch : s1) {
+            int idx = ch - 'a';
+            s1_counter[idx]++;
         }
 
-        vector<int> counter(26, 0);
-        int l = 0;
-        for (int i = 0; i < s2_length; i++){
+        vector<int> curr_window_counter(26, 0);
+        int window_size = s1.size();
+        for (int i = 0; i < window_size - 1; i++) {
             int idx = s2[i] - 'a';
-            counter[idx]++;
+            curr_window_counter[idx]++;
+        }
 
-            if (i - l + 1 > s1_length){
-                int left_idx = s2[l] - 'a';
-                counter[left_idx]--;
-                l++;
+        int l = 0;
+        for (int r = window_size - 1; r < s2.size(); r++) {
+            int idx = s2[r] - 'a';
+            curr_window_counter[idx]++;
+
+            // Check if current window is a permutation of s1
+            for (int i = 0; i < s1_counter.size(); i++) {
+                if (s1_counter[i] != curr_window_counter[i]) {
+                    break;
+                }
+
+                if (i == s1_counter.size() - 1) {
+                    return true;
+                }
             }
 
-            if (counter == correct){
-                return true;
-            }
+            idx = s2[l++] - 'a';
+            curr_window_counter[idx]--;
         }
 
         return false;
