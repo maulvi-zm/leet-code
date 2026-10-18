@@ -7,15 +7,9 @@ public:
         vector<int> cnt(26, 0);
         int matches = 0;
 
-        auto add = [&](int c) {
+        auto update = [&](int c, int d) {
             if (cnt[c] == 0) matches--;
-            cnt[c]--;
-            if (cnt[c] == 0) matches++;
-        };
-
-        auto remove = [&](int c) {
-            if (cnt[c] == 0) matches--;
-            cnt[c]++;
+            cnt[c] += d;
             if (cnt[c] == 0) matches++;
         };
 
@@ -24,8 +18,8 @@ public:
             if (el == 0) matches++;
 
         for (int r = 0; r < s2.size(); r++) {
-            add(s2[r] - 'a');
-            if (r >= n) remove(s2[r - n] - 'a');
+            update(s2[r] - 'a', -1);
+            if (r >= n) update(s2[r - n] - 'a', +1);
             if (matches == 26) return true;
         }
 
