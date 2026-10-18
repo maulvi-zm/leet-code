@@ -1,22 +1,19 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        unordered_map<int, int> mp;
+        unordered_map<int, int> size;
 
-        int longest = 0;
-        for (auto &num: nums){
-            if (!mp[num]){
-                // If not found will default to 0
-                mp[num] = mp[num-1] + mp[num+1] + 1;
+        int answer = 0;
+        for (auto& num : nums) {
+            if (size[num]) continue;
 
-                // Update the tail and 
-                mp[num - mp[num-1]] = mp[num];
-                mp[num + mp[num+1]] = mp[num];
+            size[num] = size[num - 1] + size[num + 1] + 1;
+            size[num - size[num - 1]] = size[num];
+            size[num + size[num + 1]] = size[num];
 
-                longest = max(longest, mp[num]);
-            }
+            answer = max(answer, size[num]);
         }
 
-        return longest;
+        return answer;
     }
 };
