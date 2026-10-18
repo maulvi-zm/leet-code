@@ -1,24 +1,23 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int l = 0, r = height.size() - 1, water = 0;
+        int l = 0, r = height.size() - 1;
+        int max_l = INT_MIN, max_r = INT_MIN;
 
-        int left_max = height[l], right_max = height[r];
-
+        int trapped_water = 0;
         while (l < r) {
-            if (left_max > right_max) { // move the right pointer
-                water += min(left_max, right_max) - height[r];
+            max_l = max(height[l], max_l);
+            max_r = max(height[r], max_r);
 
+            if (max_l > max_r) {
+                trapped_water += min(max_r, max_l) - height[r];
                 r--;
-                right_max = max(right_max, height[r]);
             } else {
-                water += min(left_max, right_max) - height[l];
-
+                trapped_water += min(max_r, max_l) - height[l];
                 l++;
-                left_max = max(left_max, height[l]);
             }
         }
 
-        return water;
+        return trapped_water;
     }
 };
