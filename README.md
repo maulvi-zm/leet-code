@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0406-queue-reconstruction-by-height](https://github.com/maulvi-zm/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
 | [0518-coin-change-ii](https://github.com/maulvi-zm/leet-code/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/maulvi-zm/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0605-can-place-flowers](https://github.com/maulvi-zm/leet-code/tree/master/0605-can-place-flowers) |
 | [0695-max-area-of-island](https://github.com/maulvi-zm/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/maulvi-zm/LeetCode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/maulvi-zm/LeetCode/tree/master/0724-find-pivot-index) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/maulvi-zm/LeetCode/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/maulvi-zm/leet-code/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/maulvi-zm/leet-code/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0605-can-place-flowers](https://github.com/maulvi-zm/leet-code/tree/master/0605-can-place-flowers) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/maulvi-zm/LeetCode/tree/master/1388-greatest-sum-divisible-by-three) |
 ## Stack
 |  |
