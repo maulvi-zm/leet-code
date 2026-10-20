@@ -1,44 +1,27 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        unordered_map<char, int> mp;
-        for (auto ch : t) {
-            mp[ch]--;
-        }
+        if (t.size() > s.size()) return "";
 
-        int isEnough = -mp.size();
-        auto update = [&](char c, int d) {
-            if (mp.count(c) == 0) return;
+        int need[128] = {};
+        int missing = t.size();
+        for (char c : t) need[c]++;
 
-            if (mp[c] == 0 && d == -1)
-                isEnough--;
-            else if (mp[c] == -1 && d == 1)
-                isEnough++;
+        int bestLen = INT_MAX, bestStarLen = -1;
 
-            mp[c] += d;
-        };
+        for (int l = 0, r = 0; r < s.size(); r++) {
+            if (need[s[r]]-- > 0) missing--;
 
-        int min_length = INT_MAX;
-        pair<int, int> answer = {-1, -1};
-
-        int l = 0;
-        for (int r = 0; r < s.size(); r++) {
-            update(s[r], +1);
-
-            while (isEnough == 0) {
-                if (r - l + 1 < min_length) {
-                    min_length = r - l + 1;
-                    answer.first = l;
-                    answer.second = r;
+            while (missing == 0) {
+                if (r - l + 1 < bestLen) {
+                    bestLen = r - l + 1;
+                    bestStarLen = l;
                 }
 
-                update(s[l], -1);
-                l++;
+                if (++need[s[l++]] > 0) missing++;
             }
-
         }
 
-        if (min_length == INT_MAX) return "";
-        return s.substr(answer.first, answer.second - answer.first + 1);
+        return bestLen == INT_MAX ? "" : s.substr(bestStarLen, bestLen);
     }
 };
