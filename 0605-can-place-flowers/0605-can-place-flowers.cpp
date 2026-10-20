@@ -1,23 +1,23 @@
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
+        int size = flowerbed.size();
         int total = 0;
 
-        int counter = 0;
-        for (auto& num: flowerbed){
-            if (num == 1){
-                if (counter > 0) counter -= 1;
+        for (int i = 0; i < size; i++) {
+            bool isLeftEmpty = (i == 0) || flowerbed[i - 1] == 0;
+            bool isRightEmpty = (i == size - 1) || flowerbed[i + 1] == 0;
 
-                total += max((counter + 1) / 2, 0);
+            if (flowerbed[i] == 0 && isLeftEmpty && isRightEmpty) {
+                flowerbed[i] = 1;
+                total++;
 
-                counter = -1;
-            } else {
-                counter++;
-            }
+                if (total == n) {
+                    return true;
+                }
+            };
         }
 
-        total += max((counter + 1) / 2, 0);
-        
         return total >= n;
     }
 };
