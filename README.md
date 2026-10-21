@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/maulvi-zm/leet-code/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/maulvi-zm/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0406-queue-reconstruction-by-height](https://github.com/maulvi-zm/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
+| [0496-next-greater-element-i](https://github.com/maulvi-zm/leet-code/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/maulvi-zm/leet-code/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/maulvi-zm/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/maulvi-zm/leet-code/tree/master/0605-can-place-flowers) |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/maulvi-zm/leet-code/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/maulvi-zm/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/maulvi-zm/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0496-next-greater-element-i](https://github.com/maulvi-zm/leet-code/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/maulvi-zm/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/maulvi-zm/leet-code/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/maulvi-zm/LeetCode/tree/master/0721-accounts-merge) |
@@ -429,12 +431,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/maulvi-zm/leet-code/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/maulvi-zm/leet-code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/maulvi-zm/leet-code/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/maulvi-zm/leet-code/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/maulvi-zm/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/maulvi-zm/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/maulvi-zm/leet-code/tree/master/0496-next-greater-element-i) |
 ## Trie
 |  |
 | ------- |
