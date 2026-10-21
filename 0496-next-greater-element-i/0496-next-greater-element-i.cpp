@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-        unordered_map<int, int> mp;
+        vector<int> mp(1e4 + 1, -1);
         for (int i = 0; i < nums1.size(); i++) {
             mp[nums1[i]] = i;
         }
@@ -14,7 +14,7 @@ public:
                 st.pop();
             }
 
-            if (mp.count(nums2[i]) != 0) {
+            if (mp[nums2[i]] != -1) {
                 ans[mp[nums2[i]]] = st.empty() ? -1 : st.top();
             }
 
