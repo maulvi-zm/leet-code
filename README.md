@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/maulvi-zm/leet-code/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/maulvi-zm/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/maulvi-zm/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/maulvi-zm/leet-code/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/maulvi-zm/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/maulvi-zm/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/maulvi-zm/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/maulvi-zm/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/maulvi-zm/leet-code/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/maulvi-zm/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/maulvi-zm/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/maulvi-zm/LeetCode/tree/master/0744-network-delay-time) |
@@ -389,11 +391,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/maulvi-zm/leet-code/tree/master/0225-implement-stack-using-queues) |
+| [0239-sliding-window-maximum](https://github.com/maulvi-zm/leet-code/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/maulvi-zm/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/maulvi-zm/LeetCode/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/maulvi-zm/leet-code/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/maulvi-zm/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/maulvi-zm/LeetCode/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Sliding Window
@@ -403,6 +407,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/maulvi-zm/leet-code/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/maulvi-zm/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/maulvi-zm/LeetCode/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/maulvi-zm/leet-code/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/maulvi-zm/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/maulvi-zm/leet-code/tree/master/0567-permutation-in-string) |
 | [1020-longest-turbulent-subarray](https://github.com/maulvi-zm/LeetCode/tree/master/1020-longest-turbulent-subarray) |
@@ -498,4 +503,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/maulvi-zm/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/maulvi-zm/leet-code/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
