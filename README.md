@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/maulvi-zm/LeetCode/tree/master/0724-find-pivot-index) |
 | [0729-my-calendar-i](https://github.com/maulvi-zm/LeetCode/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/maulvi-zm/leet-code/tree/master/0739-daily-temperatures) |
 | [0746-prefix-and-suffix-search](https://github.com/maulvi-zm/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0816-design-hashset](https://github.com/maulvi-zm/LeetCode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/maulvi-zm/LeetCode/tree/master/0817-design-hashmap) |
@@ -433,12 +434,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/maulvi-zm/leet-code/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/maulvi-zm/leet-code/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/maulvi-zm/leet-code/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/maulvi-zm/leet-code/tree/master/0739-daily-temperatures) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/maulvi-zm/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/maulvi-zm/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/maulvi-zm/leet-code/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/maulvi-zm/leet-code/tree/master/0739-daily-temperatures) |
 ## Trie
 |  |
 | ------- |
