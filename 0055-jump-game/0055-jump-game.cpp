@@ -1,18 +1,15 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        constexpr size_t N = 10000;
+        int achievable = 0;
         int n = nums.size();
-        bitset<N> bt, window;
 
-        bt.set(0);
-        for (int i = 0; i < n; i++) {
-            if (!bt.test(i)) continue;
-            if (bt.test(n - 1)) break;
+        for (int i = 0; i < n; ++i){
+            if (achievable < i) return false;
 
-            bt |= (window.set() >> (N - min(n, nums[i]))) << i + 1;
+            achievable = max(achievable, i + nums[i]);
         }
 
-        return bt.test(n - 1);
+        return true;
     }
 };
